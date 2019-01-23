@@ -1,0 +1,1 @@
+export default {type:"ADD_NEW_ITEM"};
