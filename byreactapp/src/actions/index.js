@@ -28,3 +28,40 @@ export const increament = () =>({
 export const decreament = () => ({
   type:'Decreament'
 })
+
+export const increamentIfOdd = () => ({
+  type: 'IncreamentIfOdd'
+})
+
+export const increament3 = () =>({
+  type:'Increament3'
+})
+
+export const decreament3 = () => ({
+  type:'Decreament3'
+})
+
+export const increamentIfOdd3 = () => ({
+  type: 'IncreamentIfOdd3'
+})
+
+export const increamentAsync = () => dispatch => {
+  dispatch(decreament3());
+  setTimeout(()=>dispatch(increament3()),1000);
+}
+
+export const increament4 = () =>({
+  type:'Increament4'
+})
+
+export const decreament4 = () => ({
+  type:'Decreament4'
+})
+
+export const increamentIfOdd4= () => ({
+  type: 'IncreamentIfOdd4'
+})
+
+export const increamentAsync4 = () => ({
+  type: 'IncreamentAsync4'
+})
