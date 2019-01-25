@@ -8,7 +8,7 @@ export default {
       antd: true,
       dva: true,
       dynamicImport: false,
-      title: 'byumi',
+      title: '地图应用',
       dll: false,
       routes: {
         exclude: [
